@@ -1,0 +1,35 @@
+artifact_path: xgboost_model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.16
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.4.2
+is_signature_from_type_hint: false
+mlflow_version: 2.22.0
+model_size_bytes: 7778938
+model_uuid: 0c372bb1bc3144198479293b6ced6d08
+prompts: null
+run_id: 8d0ae94a9fa24a31ad572a2260f2507d
+signature:
+  inputs: '[{"type": "double", "name": "temp", "required": true}, {"type": "double",
+    "name": "dwpt", "required": true}, {"type": "double", "name": "rhum", "required":
+    true}, {"type": "double", "name": "wdir", "required": true}, {"type": "double",
+    "name": "wspd", "required": true}, {"type": "double", "name": "pres", "required":
+    true}, {"type": "long", "name": "coco", "required": true}, {"type": "long", "name":
+    "Day", "required": true}, {"type": "long", "name": "Month", "required": true},
+    {"type": "long", "name": "Weekday", "required": true}, {"type": "long", "name":
+    "Year", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float32", "shape": [-1,
+    6]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-04-28 14:21:16.043732'

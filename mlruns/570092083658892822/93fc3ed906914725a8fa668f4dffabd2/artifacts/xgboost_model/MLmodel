@@ -1,0 +1,35 @@
+artifact_path: xgboost_model
+flavors:
+  python_function:
+    data: model.xgb
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.10.16
+  xgboost:
+    code: null
+    data: model.xgb
+    model_class: xgboost.sklearn.XGBRegressor
+    model_format: xgb
+    xgb_version: 3.0.0
+is_signature_from_type_hint: false
+mlflow_version: 2.22.0
+model_size_bytes: 1290216
+model_uuid: 1cf391ac85714dd9b0d41e29d9201b2c
+prompts: null
+run_id: 93fc3ed906914725a8fa668f4dffabd2
+signature:
+  inputs: '[{"type": "double", "name": "temp", "required": true}, {"type": "double",
+    "name": "dwpt", "required": true}, {"type": "double", "name": "rhum", "required":
+    true}, {"type": "double", "name": "wdir", "required": true}, {"type": "double",
+    "name": "wspd", "required": true}, {"type": "double", "name": "pres", "required":
+    true}, {"type": "long", "name": "coco", "required": true}, {"type": "long", "name":
+    "Day", "required": true}, {"type": "long", "name": "Month", "required": true},
+    {"type": "long", "name": "Weekday", "required": true}, {"type": "long", "name":
+    "Year", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float32", "shape": [-1,
+    6]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-04-28 16:56:12.829984'

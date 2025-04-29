@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/062bb8f18e9c47db872f77574c5b3d4d/artifacts
+end_time: 1745887111953
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 062bb8f18e9c47db872f77574c5b3d4d
+run_name: XGBoost_Regression_Model
+run_uuid: 062bb8f18e9c47db872f77574c5b3d4d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745887109428
+status: 4
+tags: []
+user_id: Arbaz Aslam

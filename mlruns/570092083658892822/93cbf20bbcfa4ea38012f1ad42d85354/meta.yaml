@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Arbaz%20Aslam/Python%20work/Arbaz_Aslam_AQI_Project/mlruns/570092083658892822/93cbf20bbcfa4ea38012f1ad42d85354/artifacts
+end_time: 1745871873704
+entry_point_name: ''
+experiment_id: '570092083658892822'
+lifecycle_stage: active
+run_id: 93cbf20bbcfa4ea38012f1ad42d85354
+run_name: Full_MultiOutput_Model_Run
+run_uuid: 93cbf20bbcfa4ea38012f1ad42d85354
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745871869963
+status: 3
+tags: []
+user_id: Arbaz Aslam
