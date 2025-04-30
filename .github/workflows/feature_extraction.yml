@@ -4,6 +4,12 @@ on:
   schedule:
     - cron: '0 * * * *'  # Every hour
   workflow_dispatch:
+  push:
+    branches:
+      - main  
+    paths:
+      - 'Arbaz_Aslam_AQI_Project.ipynb'
+      - 'requirements.txt' 
 
 jobs:
   feature_extraction:
