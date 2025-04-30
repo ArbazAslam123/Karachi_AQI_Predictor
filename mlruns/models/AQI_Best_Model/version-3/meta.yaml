@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1746002861331
+current_stage: None
+description: null
+last_updated_timestamp: 1746002861331
+name: AQI_Best_Model
+run_id: 09406a1becd144ecbf4680ecb8806cd6
+run_link: null
+source: file:///C:/Users/Arbaz%20Aslam/Python%20work/Arbaz_Aslam_AQI_Project/mlruns/570092083658892822/09406a1becd144ecbf4680ecb8806cd6/artifacts/best_model
+status: READY
+status_message: null
+storage_location: file:///C:/Users/Arbaz%20Aslam/Python%20work/Arbaz_Aslam_AQI_Project/mlruns/570092083658892822/09406a1becd144ecbf4680ecb8806cd6/artifacts/best_model
+user_id: null
+version: 3
