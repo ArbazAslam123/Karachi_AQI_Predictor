@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Arbaz%20Aslam/Python%20work/Arbaz_Aslam_AQI_Project/mlruns/570092083658892822/9055612f9f00428db01408c48f1c401d/artifacts
+end_time: 1745998273561
+entry_point_name: ''
+experiment_id: '570092083658892822'
+lifecycle_stage: active
+run_id: 9055612f9f00428db01408c48f1c401d
+run_name: XGBoost_Best_Model_Run
+run_uuid: 9055612f9f00428db01408c48f1c401d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745998270924
+status: 3
+tags: []
+user_id: Arbaz Aslam

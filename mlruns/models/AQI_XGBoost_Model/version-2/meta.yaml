@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1745998273561
+current_stage: None
+description: null
+last_updated_timestamp: 1745998273561
+name: AQI_XGBoost_Model
+run_id: 9055612f9f00428db01408c48f1c401d
+run_link: null
+source: file:///C:/Users/Arbaz%20Aslam/Python%20work/Arbaz_Aslam_AQI_Project/mlruns/570092083658892822/9055612f9f00428db01408c48f1c401d/artifacts/xgboost_model
+status: READY
+status_message: null
+storage_location: file:///C:/Users/Arbaz%20Aslam/Python%20work/Arbaz_Aslam_AQI_Project/mlruns/570092083658892822/9055612f9f00428db01408c48f1c401d/artifacts/xgboost_model
+user_id: null
+version: 2
