@@ -2,9 +2,8 @@ name: Model Training and Inference Workflow
 
 on:
   schedule:
-    # Runs once every day at midnight
-    - cron: '0 0 * * *'
-  workflow_dispatch:  # This allows to trigger manually as well
+    - cron: '0 0 * * *'  # Daily at midnight
+  workflow_dispatch:
 
 jobs:
   model_training_inference:
@@ -23,8 +22,10 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
-        pip install jupyter  # To run the Jupyter notebook
+        pip install jupyter
 
     - name: Run Jupyter notebook
       run: |
-        jupyter nbconvert --execute --inplace --to notebook Arbaz_Aslam_AQI_Project.ipynb  # Run your Jupyter notebook
+        jupyter nbconvert --execute --inplace --to notebook Arbaz_Aslam_AQI_Project.ipynb
+      env:
+        CI: "true"
